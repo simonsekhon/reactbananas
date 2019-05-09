@@ -1,14 +1,13 @@
-<p align="center"><a href="https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f"><img src="https://i.imgur.com/PATsTx2.png" title="View tutorial" alt="React, React Router, Redux and Redux Thunk" width="900"></a></p>
 
-* Tutorial: [Getting started with create-react-app, Redux, React Router & Redux Thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
-* [Demo](https://create-react-app-redux.now.sh) 🙌
+## Description
+
+Built this application using React/Redux. Used Axios to make API calls to the Node.js Backend.
 
 ## Installation
 
 ```bash
-git clone https://github.com/notrab/create-react-app-redux.git
-cd create-react-app-redux
-yarn
+cd reactbananas
+yarn or npm install
 ```
 
 ## Get started
@@ -17,4 +16,10 @@ yarn
 yarn start
 ```
 
-This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies.
+## Missing Requirements
+
+Optional features are missing due to time constraint but focused on the overall architecture and design. Also missing the net profit and not providing a way to stop selling expired bananas which is also due to time constraint.
+
+## Conclusion
+
+Focused my time on the react/redux design and coming up with ways to properly show and store data from the backend. The layout I also focused on at a high level with react router navigation and properly displaying the right information when a route changes.
